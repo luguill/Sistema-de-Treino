@@ -1,0 +1,14 @@
+enums\ExerciseType.class
+modelo\ExerciseCardio.class
+modelo\User.class
+enums\Level.class
+enums\MuscleGroups.class
+modelo\ExerciseRepetition.class
+modelo\TrainingSession.class
+modelo\Historico.class
+modelo\Training.class
+modelo\ProjetoSistemaTreino.class
+modelo\ExerciseRecord.class
+enums\DayWeek.class
+modelo\Exercise.class
+modelo\ExercicioIsometrico.class
