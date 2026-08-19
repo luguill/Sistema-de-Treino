@@ -59,7 +59,7 @@ public class frmMostrarTreino extends javax.swing.JDialog {
     private void carregarExercicios(){
        
         List<Exercise> exercicios = treinoExercicioDao.listarExercicios(treino.getId());
-        System.out.println("-> Quantidade de exercícios encontrados para o treino " + treino.getId() + ": " + (exercicios != null ? exercicios.size() : "null"));
+        
         DefaultTableModel modelo = (DefaultTableModel) exercicioTable.getModel();
         
         modelo.setRowCount(0);
